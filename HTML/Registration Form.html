@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h4>Registration Form</h4>
+    <form action="/action.php">
+        <input type=" text" placeholder="username" />
+        <br />
+        <br />
+        <input type="password" placeholder="password"/>
+        <br/><br/>
+        <br/><br/>
+        <h5>Select your class</h5>
+        <label for="101">
+            <input type="radio" value="class XI" name="class" id="101"/> class XI
+        </label>
+        <br><br>
+        <label for="102">
+            <input type="radio" value="class XII" name="class" id="102"/> class XII
+        </label>
+        <br><br>
+        <h5>Select your fav subject</h5>
+        <label for="Math">
+            <input type="checkbox" value="Math" name="Subject" id="101" /> Math
+        </label>
+        <br><br>
+        <label for="Physics">
+            <input type="checkbox" value="Physics" name="Subject" id="102" /> Physics
+        </label>
+        <br><br>
+        <label for="Biology">
+            <input type="checkbox" value="Biology" name="Subject" id="103" /> Biology
+        </label>
+        <br><br>
+        <label for="Hindi">
+            <input type="checkbox" value="Hindi" name="Subject" id="104" /> Hindi
+        </label>
+        <br><br>
+        <label for="Marathi">
+            <input type="checkbox" value="Marathi" name="Subject" id="105" /> Marathi
+        </label>
+        <br><br>
+        Select your city
+        <select name="city">
+            <option value="Pune">Pune</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Rahuri">Rahuri</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Ahmednagar">Ahmednagar</option>
+        </select>
+        <br><br>
+        <textarea name="Feedback" id="101" placeholder="Please give your valuable feedback here" rows="5"></textarea>
+        <br><br>
+        <input type="Submit" value="Submit"/>
+    </form>
+</body>
+</html>
